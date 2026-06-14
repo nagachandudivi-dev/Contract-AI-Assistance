@@ -1,0 +1,71 @@
+# ===== BACKEND =====
+
+# Build outputs
+backend/**/bin/
+backend/**/obj/
+backend/**/publish/
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# Uploaded documents
+backend/**/uploads/
+
+# User secrets and sensitive config
+backend/**/appsettings.Development.json
+backend/**/appsettings.Production.json
+**/secrets.json
+
+# .NET tools
+backend/**/.vs/
+backend/**/*.user
+
+# ===== FRONTEND =====
+
+# Dependencies
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+frontend/.vite/
+
+# Environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# ===== GENERAL =====
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+!frontend/.env.example
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temp
+*.tmp
+*.temp
+
+# GitHub Actions secrets (don't commit)
+*.pem
+*.pfx
+publish_profile.xml
