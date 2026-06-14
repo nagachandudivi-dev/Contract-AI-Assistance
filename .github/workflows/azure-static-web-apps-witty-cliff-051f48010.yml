@@ -29,7 +29,7 @@ jobs:
         run: |
           cd frontend
           npm install
-          npm run build
+          npx vite build
         env:
           VITE_API_URL: https://contract-ai-backend-ddembpbwedg3c6as.centralus-01.azurewebsites.net
 
