@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(dotnet --version)",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\nagud\\\\OneDrive\\\\Desktop\\\\Contract AI Assistance\\\\frontend\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\nagud\\\\OneDrive\\\\Desktop\\\\Contract AI Assistance\\\\frontend\\\\src\\\\types\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\nagud\\\\OneDrive\\\\Desktop\\\\Contract AI Assistance\\\\frontend\\\\src\\\\services\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\nagud\\\\OneDrive\\\\Desktop\\\\Contract AI Assistance\\\\frontend\\\\src\\\\contexts\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\nagud\\\\OneDrive\\\\Desktop\\\\Contract AI Assistance\\\\frontend\\\\src\\\\components\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\nagud\\\\OneDrive\\\\Desktop\\\\Contract AI Assistance\\\\frontend\\\\src\\\\layouts\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\nagud\\\\OneDrive\\\\Desktop\\\\Contract AI Assistance\\\\frontend\\\\src\\\\pages\\\\auth\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\nagud\\\\OneDrive\\\\Desktop\\\\Contract AI Assistance\\\\frontend\\\\src\\\\pages\\\\admin\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\nagud\\\\OneDrive\\\\Desktop\\\\Contract AI Assistance\\\\frontend\\\\src\\\\pages\\\\user\")",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(git commit *)",
+      "Bash(git pull *)",
+      "Bash(find .github -name \"*.yml\")",
+      "Bash(cat .github/workflows/*.yml)",
+      "Bash(gh run *)",
+      "Bash(gh auth *)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\nagud\\OneDrive\\Desktop\\Contract AI Assistance\\backend"
+    ]
+  }
+}

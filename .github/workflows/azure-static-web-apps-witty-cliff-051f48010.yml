@@ -28,8 +28,8 @@ jobs:
       - name: Install and Build
         run: |
           cd frontend
-          npm install
-          npx vite build
+          npm ci
+          npm run build
         env:
           VITE_API_URL: https://contract-ai-backend-ddembpbwedg3c6as.centralus-01.azurewebsites.net
 
@@ -39,10 +39,11 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_WITTY_CLIFF_051F48010 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "./frontend"
+          app_location: "frontend/dist"
           api_location: ""
-          output_location: "dist"
+          output_location: ""
           skip_app_build: true
+          skip_api_build: true
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
