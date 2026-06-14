@@ -91,7 +91,7 @@ export default function CompareDocumentsPage() {
               </Button>
             </Box>
             {keywords.length > 0 && (
-              <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap>
+              <Stack direction="row" spacing={1} sx={{ flexWrap: 'wrap' }}>
                 {keywords.map(k => (
                   <Chip key={k} label={k} onDelete={() => setKeywords(prev => prev.filter(x => x !== k))}
                     color="primary" variant="outlined" size="small" />
