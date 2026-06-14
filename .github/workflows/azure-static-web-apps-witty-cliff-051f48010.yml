@@ -31,7 +31,7 @@ jobs:
           npm install
           npm run build
         env:
-          VITE_API_URL: https://contract-ai-backend.azurewebsites.net
+          VITE_API_URL: https://contract-ai-backend-ddembpbwedg3c6as.centralus-01.azurewebsites.net
 
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
